@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "git-flow-cli": "^0.1.0"
+  },
+  "dependencies": {
+    "resolve-dir": "^1.0.1"
+  }
+}
