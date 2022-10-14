@@ -1,8 +1,8 @@
 pipeline{
     agent any
     tools { 
-        maven 'maven 3.8.6' 
-        jdk 'java' 
+        maven 'Maven 3.8.6' 
+        java 'jdk8' 
     }
     stages{
         stage("Sonar Quality Check"){
