@@ -2,7 +2,7 @@ pipeline{
     agent any
     tools { 
         maven 'maven' 
-        jdk 'java' 
+        jdk 'jdk' 
     }
     stages{
         stage("Sonar Quality Check"){
